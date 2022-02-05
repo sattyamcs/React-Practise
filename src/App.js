@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+import ReactProps from "./Component/ReactProps"
+import './App.css'
+import UseEffect from "./Component/UseEffect";
+import UseState from "./Component/UseState";
+import ReactState from "./Component/ReactState";
+import ReactStateClass from "./Component/ReactStateClass";
+import ReactToggle from "./Component/ReactToggle";
 function App() {
+//This function is passing as props and when it called its called like Data();
+  function reactProps(){
+    alert("Hello this is react props")
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <ReactProps Data={reactProps} name={{name:"Sattyam",Profession:"Engineer"}}/>
+    {/* <UseState/> */}
+    {/* <UseEffect/> */}
+    {/* <ReactState/> */}
+    {/* <ReactStateClass/> */}
+    <ReactToggle/>
+    </>
   );
 }
 
