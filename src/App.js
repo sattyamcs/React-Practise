@@ -5,6 +5,9 @@ import UseState from "./Component/UseState";
 import ReactState from "./Component/ReactState";
 import ReactStateClass from "./Component/ReactStateClass";
 import ReactToggle from "./Component/ReactToggle";
+import ReactForms from "./Component/ReactForms";
+import ReactUseRef from "./Component/ReactUseRef";
+import FormValidation from "./Component/FormValidation";
 function App() {
 //This function is passing as props and when it called its called like Data();
   function reactProps(){
@@ -12,12 +15,15 @@ function App() {
   }
   return (
     <>
-    <ReactProps Data={reactProps} name={{name:"Sattyam",Profession:"Engineer"}}/>
+    {/* <ReactProps Data={reactProps} name={{name:"Sattyam",Profession:"Engineer"}}/> */}
     {/* <UseState/> */}
     {/* <UseEffect/> */}
     {/* <ReactState/> */}
     {/* <ReactStateClass/> */}
-    <ReactToggle/>
+    {/* <ReactToggle/> */}
+    {/* <ReactForms/> */}
+    {/* <ReactUseRef/> */}
+    <FormValidation/>
     </>
   );
 }

@@ -2,16 +2,20 @@
   display: grid;
   place-items: center;
 }
+
 button{
   padding: 10px;
   margin: 2px;
   color: white;
   border: 2px solid white;
-  background-color: rgb(34, 103, 253);
+  background-color: rgb(53, 105, 218);
   border-radius: 6px;
   cursor: pointer;
 }
 
 .heading{
   color: blueviolet;
+}
+input{
+  padding: 10px 10px;
 }
