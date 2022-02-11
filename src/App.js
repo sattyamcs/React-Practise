@@ -21,7 +21,7 @@ function App() {
     {/* <ReactState/> */}
     {/* <ReactStateClass/> */}
     {/* <ReactToggle/> */}
-    {/* <ReactForms/> */}
+    <ReactForms/>
     {/* <ReactUseRef/> */}
     <FormValidation/>
     </>

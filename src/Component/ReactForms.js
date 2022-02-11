@@ -5,7 +5,7 @@ const ReactForms = () => {
     const [name, setName] = useState();
     const[fullName,setFullname]=useState();
     const inputEvent=(event)=>{
-        console.log(event.target.value)
+        console.log(event.target.value.length)
         setName(event.target.value)
     }
     const submit=()=>{
