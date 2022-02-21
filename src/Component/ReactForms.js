@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
-
+//Whereever we are using states thatis the controlled component of React forms
+//This is a Controlled Form
 const ReactForms = () => {
 
     const [name, setName] = useState();

@@ -8,6 +8,8 @@ import ReactToggle from "./Component/ReactToggle";
 import ReactForms from "./Component/ReactForms";
 import ReactUseRef from "./Component/ReactUseRef";
 import FormValidation from "./Component/FormValidation";
+import ControlledUncontrolled from "./Component/Controlled&Uncon";
+import HighOrderComp from "./Component/HighOrderComp";
 function App() {
 //This function is passing as props and when it called its called like Data();
   function reactProps(){
@@ -21,9 +23,11 @@ function App() {
     {/* <ReactState/> */}
     {/* <ReactStateClass/> */}
     {/* <ReactToggle/> */}
-    <ReactForms/>
+    {/* <ReactForms/> */}
     {/* <ReactUseRef/> */}
-    <FormValidation/>
+    {/* <FormValidation/> */}
+    {/* <ControlledUncontrolled/> */}
+    <HighOrderComp/>
     </>
   );
 }

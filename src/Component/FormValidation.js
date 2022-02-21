@@ -12,9 +12,10 @@ const FormValidation = () => {
     }else{
       alert("Login Successfully")
     }
-    // e.preventDefault()
+    // e.preventDefault()   //This helps to ignore reloading when ever submitted.
     // console.log("Hello Login user")
   }
+  //whenever we trigger onchange it passed object that is e here.
   function userHandler(e){
     let value=e.target.value.length
     if(value<3){
