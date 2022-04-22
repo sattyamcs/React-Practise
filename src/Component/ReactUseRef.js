@@ -7,11 +7,11 @@ import React,{useRef} from 'react'
 
 
 const ReactUseRef = () => {
-    let inputRef= useRef(null) //Defined i a variable and use where DOM we want to manipulate
+    let inputRef= useRef(null) //Defined in a variable and use where DOM we want to manipulate
     function manipulateDom(){
         console.log("clicked")
         inputRef.current.value=("1000")   //Here this we can manipulate Dom
-        inputRef.current.style.color="red"   //Here this we can manipulate Dom
+        inputRef.current.style.color="red`"   //Here this we can manipulate Dom
     }
 
   return (

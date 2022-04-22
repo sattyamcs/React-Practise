@@ -4,6 +4,7 @@ import ContextChild from './ContextChild';
 // Use to transfer data from 1 parent to many childs
 // This we will make as a parent component 
 //In parent we import createContext and in child we import useContext
+// It solves the problem of prop drilling , by context API you can able send props from one to multiple components
 export const GlobalInfo=createContext();
 const ContextAPI = () => {
     const[color,setColor]=useState("red")

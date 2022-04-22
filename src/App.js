@@ -13,6 +13,9 @@ import ControlledUncontrolled from "./Component/Controlled&Uncon";
 import HighOrderComp from "./Component/HighOrderComp";
 import ReactUseMemo from "./Component/ReactUseMemo";
 import ContextAPI from "./Component/ContextAPI";
+import KeyAndList from "./Component/KeyAndList";
+import UseEffect3 from "./Component/UseEffect3";
+
 function App() {
 //This function is passing as props and when it called its called like Data();
   function reactProps(){
@@ -21,9 +24,10 @@ function App() {
   return (
     <div className="container">
     {/* <ReactProps Data={reactProps} name={{name:"Sattyam",Profession:"Engineer"}}/> */}
-    {/* <UseState/> */}
+    {/* <UseState/>  */}
     {/* <UseEffect/> */}
     {/* <UseEffect2/> */}
+    <UseEffect3/>
     {/* <ReactState/> */}
     {/* <ReactStateClass/> */}
     {/* <ReactToggle/> */}
@@ -33,7 +37,8 @@ function App() {
     {/* <ControlledUncontrolled/> */}
     {/* <HighOrderComp/> */}
     {/* <ReactUseMemo/> */}
-    <ContextAPI/>
+    {/* <ContextAPI/> */}
+    {/* <KeyAndList/> */}
     </div>
   );
 }
